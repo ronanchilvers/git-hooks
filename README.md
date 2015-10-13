@@ -12,7 +12,7 @@ composer install
 
 Then change to the project that you want to install the hook in and do
 
-```php
+```bash
 php /path/to/git-hooks/bin/git-hooks install pre-commit
 
 ```
