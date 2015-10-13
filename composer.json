@@ -1,0 +1,22 @@
+{
+    "name": "ronan/git-hooks",
+    "description": "Common hooks for php projects",
+    "require": {
+        "symfony/console": "^3.0@dev",
+        "symfony/filesystem": "^3.0@dev",
+        "symfony/process": "^3.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Githooks\\": "src"
+        }
+    },
+    "license": "GPL Version 2",
+    "authors": [
+        {
+            "name": "Ronan Chilvers",
+            "email": "ronan@d3r.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
