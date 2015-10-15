@@ -36,7 +36,7 @@ class Lint extends Command
         $result = explode("\n", $result);
         $errors = false;
         foreach ($result as $path) {
-            if ('.php' != substr($path, -4)) {
+            if ('.php' != substr($path, -4) || !file_exists($path)) {
                 $output->writeLn('[-] ' . $path);
                 continue;
             }
